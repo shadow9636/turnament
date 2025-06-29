@@ -55,8 +55,8 @@ header{
     display: flex;
     flex-direction: column;
     position: relative;
-    background-color: blueviolet;
-    align-items: center;
+    background-color:lavenderblush;
+    align-items:center ;
        
 }  
 #logo{
@@ -70,71 +70,92 @@ header{
    
 }          
 .contaner1{
-    height: 30vh;
-    background-color: blanchedalmond;
+    height: 20vh;
+    background-color:transparent;
     border-radius: 20px;
     display: flex;
     position: relative;
     top:6vh;
-    width: 80vw;
+    width: 95vw;
    
 }      
 .boder{
     border: 1px solid black;
-    height:30vh;
-    width: 80vw;
-    box-shadow: inset 0vh 2vh 15vh black;
+    height:20vh;
+    width: 90vw;
+    box-shadow: inset 0vh 2vh 30vh black;
     border: hidden;
     border-radius: 20px;
-    
-    
-
+    margin-left: 5vw;
 }
-hr{
-    width: 75vw;
-    display: flex;
-    position: relative;
-    left: 2.5vw;
-    
-   
+.topcontener{
+    border: 0.5px solid black;
+    height: 3vh;
+    width: 90vw;
+    border-radius: 20px 20px 0px 0px;
+    box-shadow: inset 40vw 0vh 6vh rgba(0,0,0,0.7);
+    border: hidden;
 }
-.contaner2{
-    height: 30vh;
-    background-color: blanchedalmond;
+ #bgmilogo{
+    height: 13vh;
+    width: 30vw;
     border-radius: 20px;
     display: flex;
     position: relative;
-    top: 9vh;
-    width: 80vw;
+    top: 1.5vh;
+    right:5vw ;
+    z-index: 100;
+ }
+ #button{
+    display: flex;
+    position:absolute;
+    height: 4vh;
+    width: 20vw;   
+    left: 74vw;
+    top: 14vh;
+    border-radius: 20px 65px 20px 65px;
+    justify-content: center;
+    box-shadow: inset 10vh 0vw 35px rgba(131, 25, 231, 0.5) ;
+    background-color: rgb(236, 233, 238);
+    border: hidden;
+    cursor: pointer;
+ }
+.contaner2{
+    height: 20vh;
+    background-color:transparent;
+    border-radius: 20px;
+    display: flex;
+    position: relative;
+    top:9vh;
+    width: 95vw;
 }      
 .contaner3{
-   height: 30vh;
-    background-color: blanchedalmond;
+   height: 20vh;
+    background-color:transparent;
     border-radius: 20px;
     display: flex;
     position: relative;
-    top: 12vh;
-    width: 80vw;
+    top:12vh;
+    width: 95vw;
 
 }      
 .contaner4{
-    height: 30vh;
-    background-color: blanchedalmond;
+    height: 20vh;
+    background-color:transparent;
     border-radius: 20px;
     display: flex;
     position: relative;
-    top: 15vh;
-    width: 80vw;
+    top:15vh;
+    width: 95vw;
 
 }      
 .contaner5{
-    height: 30vh;
-    margin: 7vw;
-    background-color: blanchedalmond;
+    height: 20vh;
+    background-color:transparent;
     border-radius: 20px;
     display: flex;
     position: relative;
-    top: 18vh;
-    width: 80vw;
+    top:18vh;
+    width: 95vw;
 }      
       
